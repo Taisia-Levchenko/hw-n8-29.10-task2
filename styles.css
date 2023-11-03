@@ -1,0 +1,53 @@
+/* псевдокласи стану */
+
+/* стиль для елементу при наведенні курсору */
+ul li:hover {
+    color: blue;
+}
+
+/* стиль для активованого елементу */
+ul li:active {
+    background-color: lightgray;
+}
+
+/* стиль для елементів у фокусі (наприклад, поля вводу) */
+input:focus {
+    border: 1px solid red;
+}
+
+/* стиль для вибраних пунктів (радіокнопки або перемикачі) */
+input:checked {
+    background-color: yellow;
+}
+
+/* стиль для вимкнених елементів форми */
+input:disabled {
+    opacity: 0.5;
+}
+
+/* структурні псевдокласи */
+
+/* стиль для першого дочірнього елементу ul */
+ul li:first-child {
+    font-weight: bold;
+}
+
+/* стиль для останнього дочірнього елементу ul */
+ul li:last-child {
+    text-decoration: underline;
+}
+
+/* стиль для парних дочірніх елементів ul */
+ul li:nth-child(even) {
+    background-color: lightblue;
+}
+
+/* стиль для непарних дочірніх елементів ul */
+ul li:nth-child(odd) {
+    background-color: lightpink;
+}
+
+/* стиль для першого дочірнього елементу h3 */
+h3:first-of-type {
+    color: green;
+}
